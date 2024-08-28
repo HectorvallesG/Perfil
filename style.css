@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0e0;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+.navegacion a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+}
+
+.navegacion a:hover {
+    color: #bb86fc;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.informacion {
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.imagen-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #bb86fc;
+}
+
+.nombre {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #b0b0b0;
+}
+
+.hobies-gustos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobies, .gustos {
+    flex: 1;
+    margin: 10px;
+}
+
+.hobies ul, .gustos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobies li, .gustos li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+.hobies li:hover, .gustos li:hover {
+    background-color: #bb86fc;
+    color: #000;
+}
+
+.proyectos {
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+}
+
+.proyectos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.proyectos li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+.proyectos li:hover {
+    background-color: #bb86fc;
+    color: #000;
+}
+
+.pie-pagina {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+}
