@@ -41,6 +41,9 @@ body {
     display: block;
     font-weight: 400;
 }
+.dropdown:hover .contenido-drop {
+    display: block;
+}
 .contenido-drop li a:hover {
     background-color: #575757;
     color: #bb86fc;
@@ -180,4 +183,35 @@ caption {
 .directorio th {
     background-color: #007BFF;
     color: white;
+}
+
+/* ficha informativa */
+.ficha-tarea {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    color: #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ficha-tarea h2 {
+    color: #bb86fc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ficha-tarea p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.imagen-tarea {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #bb86fc;
 }
