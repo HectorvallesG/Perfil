@@ -22,6 +22,44 @@ body {
     border-bottom: 1px solid #333;
 }
 
+/* dropdown */
+.contenido-drop {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.contenido-drop li a {
+    color: #e0e0e0;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+}
+.contenido-drop li a:hover {
+    background-color: #575757;
+    color: #bb86fc;
+}
+
+
+.contenido-drop.active {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navegacion {
+    position: relative; 
+}
+
 .navegacion a {
     color: #e0e0e0;
     text-decoration: none;
@@ -113,6 +151,7 @@ table {
 }
 th, td {
     border: 1px solid #ddd;
+    color: #000;
     padding: 12px;
     text-align: center;
     vertical-align: middle;
